@@ -1,7 +1,7 @@
 ---
 permalink: /index.html
 layout: page
-style: success
+# style: success
 ---
 ### 组织名称：
     xatusec
