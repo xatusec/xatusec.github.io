@@ -1,0 +1,42 @@
+---
+layout: default
+---
+	<!-- 文章内容 -->
+	<div class="container">
+		<!-- 内容 -->
+		<div class="panel panel-{% if page.style %}{{ page.style }}{% else %}{{ "default" }}{% endif %}">
+			<div class="panel-heading">
+				<h3 class="panel-title"><span class="glyphicon glyphicon-fire"></span> {{ page.title }}</h3>
+			</div>
+			<div class="panel-body">
+				<!-- 正文 -->
+				<div style="font-size: 14px;" id="content">
+					{{ content | replace: '[code:', '<pre class="brush:' | replace: ':edoc]', ';toolbar:false">' | replace: "[codend]", '</pre>' | replace: '<img', '<img class="img-thumbnail"' | replace: '”', '"' | replace: '“', '"' | replace: "‘", "'" | replace: "’", "'" }}
+				</div>
+			</div>
+		</div>
+		<!-- 评论吐槽 -->
+		<div class="panel panel-{% if page.style %}{{ page.style }}{% else %}{{ "default" }}{% endif %} hidden-xs">
+			<div class="panel-heading">
+				<h3 class="panel-title"><span class="glyphicon glyphicon-asterisk"></span> 评论吐槽</h3>
+			</div>
+			<div class="panel-body">
+				<!-- 多说评论框 start -->
+				<div class="ds-thread" data-thread-key="0" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.url }}"></div>
+				<!-- 多说评论框 end -->
+				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<script type="text/javascript">
+				var duoshuoQuery = {short_name:"{{ site.duoshuo_user }}"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();
+				</script>
+				<!-- 多说公共JS代码 end -->
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<!--
+__  __    _  _____ _   _ ____  _____ ____ 
+\ \/ /   / \|_   _| | | / ___|| ____/ ___|
+ \  /   / _ \ | | | | | \___ \|  _|| |    
+ /  \  / ___ \| | | |_| |___) | |__| |___ 
+/_/\_\/_/   \_\_|  \___/|____/|_____\____|
+-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ site.title }}{% if page.title %}{{ " - " | append: page.title }}{% else %}{{ " - " | append: site.description }}{% endif %}</title>
+    <meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }}{% else %}xatusec, 西安工业大学绿色兵团, XATUSEC网络攻防大赛{% endif %}">
+    <link rel="shortcut icon" href="/static/img/icon.png" />
+    <link rel="stylesheet" type="text/css" href="/static/SyntaxHighlighter/shCoreDefault.css">
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/SyntaxHighlighter/shCore.js"></script>
+    <script src="/static/js/custom.js"></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default bg-success" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- 站点名称 -->
+                <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home" style="font-weight:bold;">  {{ site.title }}</span></a>
+                <!-- 站点描述 -->
+                <p class="navbar-text hidden-xs">{{ site.description }}</p>
+            </div>
+            <div class="collapse navbar-collapse" id="hotes-navbar-collapse">
+                <!-- 页面导航栏 -->
+                <ul class="nav navbar-nav pull-right">
+                {% if page.url == "/post/" %}
+                    <!-- 分类 -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">
+                            <span class="glyphicon glyphicon-th-list"></span>
+                            分类浏览
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="javascript:void(0);" onclick="getCategory('all');"><span class="glyphicon glyphicon-tags"></span> 全部分类 <span class="pull-right badge">{{ site.posts | size }}</span></a> 
+                            </li>
+                            <li class="divider"></li>
+                        {% for category in site.categories %}
+                            <li>
+                                <a href="javascript:void(0);" onclick="getCategory('{{ category[0] }}');"><span class="glyphicon glyphicon-tag"></span> {{ category[0] }}<span class="pull-right badge">{{ category[1] | size }}</span></a>
+                            </li>
+                        {% endfor %}
+                            <li class="divider"></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="getCategory('');"><span class="glyphicon glyphicon-tag"></span> 默认</a>
+                            </li>
+                        </ul>
+                    </li>
+                {% endif %}
+                <!-- 自动增加page导航栏 -->
+                {% for p in site.pages %}
+                    {% if p.title %}
+                    {% if p.url == page.url %}
+                    <li class="active">
+                    {% else %}
+                    <li>
+                    {% endif %}
+                        <a href="{{ p.url }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
