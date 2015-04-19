@@ -3,10 +3,9 @@ layout: page
 title: 留言
 permalink: /comment/
 icon: glyphicon-comment
-style: 
+style: info
 ---
 
-##### 
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="0" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.url }}"></div>
 <!-- 多说评论框 end -->
