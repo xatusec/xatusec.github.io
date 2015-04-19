@@ -4,16 +4,10 @@ layout: page
 style: info
 ---
 
-<div class="logo">
-    <pre style="font:1em 'andale mono', 'lucida console', 'Courier New'">
-        <b>
-<font color="#999999">__ __ _  ___  _ _  __  ___ __ </font>
-<font color="#999999">\ V // \|_ _|| | |/ _|| __/ _|</font>
-<font color="#999999"> ) (| o || | | U |\_ \| _( (_ </font>
-<font color="#999999">/_n_\_n_||_| |___||__/|___\__|</font>
-        </b>
-    </pre>
-</div>
+    __  __   _ _____ _   _ ___ ___ ___ 
+    \ \/ /  /_\_   _| | | / __| __/ __|
+     >  <  / _ \| | | |_| \__ \ _| (__ 
+    /_/\_\/_/ \_\_|  \___/|___/___\___|
 
 
 ### 组织名称：
