@@ -12,16 +12,22 @@ style: info
     /__/ \__\ /__/     \__\  |__|      \______/  |_______/    |_______| \______|
 
 #### 组织名称：
-    xatusec   
-    XatuSec   
-    XATUSEC   
-    西安工业大学绿色兵团   
+```
+xatusec   
+XatuSec   
+XATUSEC   
+西安工业大学绿色兵团   
+```
 
 #### 组织简介：
-    xatusec 来自西安工业大学的网络安全组织   
-    核心成员曾多次在国家级、省级ctf比赛、信安专业竞赛中取得优异成绩   
+```
+xatusec 来自西安工业大学的网络安全组织   
+核心成员曾多次在国家级、省级ctf比赛、信安专业竞赛中取得优异成绩  
+``` 
 
 ### 联系我们：
-    http://www.xatusec.org/comment/
-    root [at] xatusec.org   
-    xatusec [at] gmail.com   
+```
+http://www.xatusec.org/comment/
+root [at] xatusec.org   
+xatusec [at] gmail.com   
+```
