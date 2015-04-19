@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XATUSEC HELLO WORLD
-style: succee
+style: success
 ---
 
 #### Hello World
@@ -19,5 +19,5 @@ style: succee
 **内测**顾名思义就是**内部测试**，   
 我们计划请`XATUSEC大赛交流群`的同学们帮忙进行为期三天的测试，   
 测试范围包括但不限于**安全**、**功能**、**bug**等等。   
-测试过程中的任何**想法**、**建议**、**意见**，请在[留言](http://www.xatusec.org/comment/) 中反馈 :)
+测试过程中的任何**想法**、**建议**、**意见**，请在[留言](http://www.xatusec.org/comment/) 中反馈 :)   
 内测结束后，网站将根据反馈结果做局部微调，然后正式上线投入实际使用。
