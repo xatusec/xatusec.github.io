@@ -27,7 +27,14 @@ __  __    _  _____ _   _ ____  _____ ____
     <!-- 导航栏 -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
+            <!-- 切换导航 -->
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hotes-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <!-- 站点名称 -->
                 <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home" style="font-weight:bold;">  {{ site.title }}</span></a>
                 <!-- 站点描述 -->
@@ -61,7 +68,7 @@ __  __    _  _____ _   _ ____  _____ ____
                         </ul>
                     </li>
                 {% endif %}
-                <!-- 自动增加page导航栏 -->
+                <!-- 加载page到导航栏 -->
                 {% for p in site.pages %}
                     {% if p.title %}
                     {% if p.url == page.url %}
