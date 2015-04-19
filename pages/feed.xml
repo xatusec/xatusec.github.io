@@ -3,20 +3,20 @@ permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>{{ site.title | xml_escape }}</title>
-		<atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
-		<link>{{ site.url | xml_escape }}</link>
-		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<language>zh-CN</language>
-		<generator>{{ site.email | xml_escape }}</generator>
-		{% for post in site.posts limit:10 %}
-		<item>
-			<title>{{ post.title | xml_escape }}</title>
-			<link>{{ post.url | prepend: site.url | xml_escape }}</link>
-			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			<category>{{ post.tags | join: "," | xml_escape }}</category>
-		</item>
-		{% endfor %}
-	</channel>
+    <channel>
+        <title>{{ site.title | xml_escape }}</title>
+        <atom:link href="{{ '/feed.xml' | prepend: site.url }}" rel="self" type="application/rss+xml" />
+        <link>{{ site.url | xml_escape }}</link>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <language>zh-CN</language>
+        <generator>{{ site.email | xml_escape }}</generator>
+        {% for post in site.posts limit:10 %}
+        <item>
+            <title>{{ post.title | xml_escape }}</title>
+            <link>{{ post.url | prepend: site.url | xml_escape }}</link>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+            <category>{{ post.tags | join: "," | xml_escape }}</category>
+        </item>
+        {% endfor %}
+    </channel>
 </rss>
