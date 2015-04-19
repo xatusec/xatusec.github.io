@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /post/
 title: 文章
 icon: book
