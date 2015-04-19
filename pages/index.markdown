@@ -22,6 +22,6 @@ style: info
     核心成员曾多次在国家级、省级ctf比赛、信安专业竞赛中取得优异成绩   
 
 ### 联系我们：
-    [comment](http://www.xatusec.org/comment/)
+    http://www.xatusec.org/comment/
     root [at] xatusec.org   
     xatusec [at] gmail.com   
