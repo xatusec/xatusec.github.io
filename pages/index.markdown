@@ -2,7 +2,7 @@
 permalink: /index.html
 layout: page
 style: info
-title: 关于我们
+title: 关于
 icon: leaf
 ---
 
