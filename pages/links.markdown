@@ -1,6 +1,9 @@
 ---
 layout: page
 permalink: /links/
+title: LINKS
+style: info
+icon: globe
 ---
 
 #### Friednd Links   

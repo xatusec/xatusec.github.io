@@ -2,8 +2,9 @@
 layout: page
 title: 留言
 permalink: /comment/
-icon: glyphicon-comment
+icon: comment
 style: info
+addNavbar: True
 ---
 
 <!-- 多说评论框 start -->

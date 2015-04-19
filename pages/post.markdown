@@ -2,7 +2,8 @@
 layout: default
 permalink: /post/
 title: 文章
-icon: glyphicon-book
+icon: book
+addNavbar: True
 ---
 <!-- 文章列表 -->
 <div class="container">

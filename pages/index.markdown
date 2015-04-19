@@ -2,6 +2,8 @@
 permalink: /index.html
 layout: page
 style: info
+title: 关于我们
+icon: leaf
 ---
 
     ___   ___      ___   .___________. __    __       _______. _______   ______ 
@@ -22,4 +24,4 @@ style: info
     核心成员曾多次在国家级、省级ctf比赛、专业信安竞赛中取得优异成绩  
     
 #### 联系我们：
-    http://www.xatusec.org/comment/
+    http://www.xatusec.org/comment/   
