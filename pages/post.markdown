@@ -1,18 +1,16 @@
 ---
-# layout: default
-layout: page
+layout: default
 permalink: /post/
 title: 文章
 icon: book
 addNavbar: True
-style: info
 ---
 <!-- 文章列表 -->
 <div class="container">
     <div class="row" id="posts">
         {% for post in site.posts %}
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="panel panel-{% if post.style %}{{ post.style }}{% else %}{{ "default" }}{% endif %}">
+            <div class="panel panel-{% if post.style %}{{ post.style }}{% else %}{{ 'default' }}{% endif %}">
                 <div class="panel-heading">
                     <div class="media">
                         <div class="pull-left" align="center">
