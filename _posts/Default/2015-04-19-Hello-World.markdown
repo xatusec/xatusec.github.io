@@ -26,10 +26,12 @@ style: success
 
    
 #### Tips
-本站公开功能如下：   
+本站公开功能如下：  
+ 
 - [RSS](http://www.xatusec.org/feed.xml)   
 - [LINKS](http://www.xatusec.org/links/)   
 - [留言](http://www.xatusec.org/comment/)
 - [文章](http://www.xatusec.org/post/)   
 - 分类浏览   
+
 还有一个未公开的api功能，你能发现吗？  
