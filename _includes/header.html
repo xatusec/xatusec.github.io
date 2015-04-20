@@ -16,10 +16,10 @@ __  __    _  _____ _   _ ____  _____ ____
     <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }}{% else %}xatusec, 西安工业大学绿色兵团, XATUSEC网络攻防大赛{% endif %}">
     <link rel="shortcut icon" href="/static/logo/icon.png" />
     <link rel="stylesheet" type="text/css" href="/static/SyntaxHighlighter/shCoreDefault.css">
-    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl }}{% else %}{{ '/static/bootstrap' }}{% endif %}/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
-    <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{% if site.jqueryCdnUrl %}{{ site.jqueryCdnUrl }}{% else %}{{ '/static/js/jquery.min.js' }}{% endif %}"></script>
+    <script src="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl}}{% else %}{{ '/static/bootstrap' }}{% endif %}/js/bootstrap.min.js"></script>
     <script src="/static/SyntaxHighlighter/shCore.js"></script>
     <script src="/static/js/custom.js"></script>
 </head>
