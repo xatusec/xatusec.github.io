@@ -6,6 +6,8 @@ icon: comment
 style: info
 addNavbar: True
 ---
+想要`联系我们`，发表任何`想法`、`意见`、`建议`，提交`bug`，请在这里留言吧！   
+我们会在收到留言的`24`小时内恢复！   
 
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="0" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.url }}"></div>
