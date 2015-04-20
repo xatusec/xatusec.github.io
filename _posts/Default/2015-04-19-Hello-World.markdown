@@ -6,7 +6,7 @@ style: success
 
 #### Hello World
 经过三天的修改调，XATUSEC官方网站正式内测了！   
-正如所有语言从``Hello World`开始一样，我们的网站也从`Hello World`开始！   
+正如所有语言从`Hello World`开始一样，我们的网站也从`Hello World`开始！   
 
    
 #### 关于本站
