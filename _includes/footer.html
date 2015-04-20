@@ -1,21 +1,20 @@
-    <!-- 底部文件 -->
+<!-- 底部文件 -->
     <footer>
     <hr class="divider">
         <div class="container">
+            <!-- 页底链接 -->
             <div class="pull-left">
                 <a href="/feed.xml" target="_blank" class="text-danger">RSS</a>
                 <span class="text-muted"> | </span>
                 <a href="/links/" target="_blank" class="text-success">LINKS</a>
+                <!-- cnzz统计 -->
+                {% if site.cnzz_id %}
                 <div style="display: none;">
-                    <!-- 百度统计 -->
-                    <!-- 
-                    <script type="text/javascript">
-                        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-                        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F{{ site.baidutongji }}' type='text/javascript'%3E%3C/script%3E"));
-                    </script>
-                    --> 
+                    <script src="http://s4.cnzz.com/z_stat.php?id={{ cnzz_id }}&web_id={{ cnzz_id }}" language="JavaScript"></script>
                 </div>
+                {% endif %}
             </div>
+            <!-- 版权 -->
             <div class="pull-right">
                 <p class="text-muted">&copy; 2015 XATUSEC.</p>
             </div>

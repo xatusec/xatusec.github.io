@@ -1,10 +1,12 @@
-# 网站信息设置
-url:                "http://www.xatusec.org"                          # 地址
+# 网站信息
+url:                "http://www.xatusec.org"                    # 地址
 title:              XATUSEC                                     # 标题
 email:              root@xatusec.org                            # 邮箱
 description:        西安工业大学绿色兵团                        # 简介
-duoshuo_user:       xatusec                                     # 多说账号
-# baidutongji:        982d4d782ccaa9a329f08c63e7d6a158            # 百度统计ID
 
 # 编译设置
 markdown: kramdown                                              # MarkDown
+
+# 第三方设置
+duoshuo_user:       xatusec                                     # 多说账号
+cnzz_id:            1254831492                                  # cnzz统计id    
