@@ -1,0 +1,15 @@
+---
+layout: static
+permalink: robots.txt
+---
+
+# __ __ _  ___  _ _  __  ___ __    
+# \ V // \|_ _|| | |/ _|| __/ _|   
+#  ) (| o || | | U |\_ \| _( (_    
+# /_n_\_n_||_| |___||__/|___\__|   
+
+Sitemap: http://www.xatusec.org/sitemap.xml   
+
+User-Agent: *   
+Allow: /   
+Allow: /feed.xml   
