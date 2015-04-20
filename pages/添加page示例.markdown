@@ -1,0 +1,40 @@
+---
+# 引用模板
+# 可选：default | page | post | static
+layout: page
+
+# url路由
+permalink: /example/
+
+# page标题
+title: 添加page示例
+
+# 导航和面板icon
+# 默认: 无icon
+# 可选：http://www.bootstrapicons.com/index.htm?version=3.0.2
+icon: leaf
+
+# 面板风格：
+# 默认： 无风格
+# 可选: info | success | danger | warning 
+style: info
+
+# 是否加到导航栏
+# 默认false
+# 可选：true | false
+addNavbar: true
+
+# 是否发表
+# 默认: true
+# 可选：true | false
+published:      false
+---
+
+#### 标题1
+    我是标题1的内容   
+    
+#### 标题2
+    我是标题2的内容   
+    
+#### 标题3   
+    我是标题3的内容   

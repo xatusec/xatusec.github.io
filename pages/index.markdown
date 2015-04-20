@@ -4,6 +4,7 @@ layout: page
 style: info
 title: 关于
 icon: leaf
+addNavbar: true
 ---
 
     ___   ___      ___   .___________. __    __       _______. _______   ______ 

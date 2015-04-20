@@ -1,0 +1,38 @@
+---
+# 文章引用的模板
+layout:         post
+
+# 文章标题
+title:          文章模板
+
+# 文章关键字
+# tags:           [keyword1, keyword2, keyword3 ...]
+
+# 文章所属分类
+# 推荐分类和父目录保持一致
+# category:       使用说明
+
+# 文章面板风格
+# 默认： 无风格
+# 可选: info | success | danger | warning 
+# style:          info
+
+# 文章面板icon
+# 默认: fire
+# 可选：http://www.bootstrapicons.com/index.htm?version=3.0.2
+# icon:           leaf
+
+# 是否发表
+# 默认: true
+# 可选：true | false
+published:      false
+---
+
+#### 标题1
+    我是标题1的内容   
+    
+#### 标题2
+    我是标题2的内容   
+    
+#### 标题3   
+    我是标题3的内容   
