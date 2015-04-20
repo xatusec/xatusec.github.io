@@ -3,6 +3,7 @@ layout: page
 permalink: /post/
 title: 文章
 icon: book
+style: info
 addNavbar: True
 ---
 <!-- 文章列表 -->
