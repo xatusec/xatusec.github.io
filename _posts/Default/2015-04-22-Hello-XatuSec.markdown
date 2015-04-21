@@ -1,14 +1,17 @@
 ---
 layout:         post
 title:          "Hello XatuSec"
-style:          "danger"
+style:          "success"
 icon:           "flag"
 ---
 
-经过三天的内测，XATUSEC官方网站终于正式上线了！  
+经过三天的内测，[`XATUSEC官方网站`](http://www.xatusec.org/)正式上线！  
 非常感谢基友和同学们的测试反馈！
 
+***
+
 #### bug反馈和修复情况如下：
+
 <table class="table table-striped  ">
   <thead>
     <tr>
@@ -36,6 +39,8 @@ icon:           "flag"
     </tr>
   </tbody>
 </table>
+
+***
 
 #### 更新：
 - 增加[sitemap](/sitemap.xml)功能
