@@ -21,4 +21,5 @@ def main():
 [codend]
 
 #### 删除线测试
-~~我辈删除了吗？~~
+~~xxoo~~
+<s>xxoo</s>
