@@ -30,9 +30,9 @@ title:          文章模板
 
 #### 重要！！！
 ```
-根据需要使用合适的后缀   
-需要解析 markdown 语法，使用 .markdown 后缀   
-不需要解析 markdown 语法，而是一般的html页面，则使用 .html 后缀   
+根据需要使用合适的后缀
+需要解析 markdown 语法，使用 .markdown 后缀
+不需要解析 markdown 语法，而是一般的html页面，则使用 .html 后缀
 ```
 
 #### 四号标题
@@ -48,7 +48,8 @@ title:          文章模板
     ```
     def main():
         print 'hello world!'
-    ```   
+    ```
+
 ```
 def main():   
     print 'hello world!'   
@@ -60,7 +61,8 @@ def main():
 [codend]
 
 #### 删除线
-    ~~xxoo~~   
+    ~~xxoo~~
+
 <s>xxoo</s>   
 
 #### 无序
@@ -68,7 +70,8 @@ def main():
     - 王芳
     - 张飞
     - 关于
-    - 刘备   
+    - 刘备
+
 - 李明
 - 王芳
 - 张飞
@@ -80,7 +83,8 @@ def main():
     2. 王芳
     3. 张飞
     4. 关于
-    5. 刘备   
+    5. 刘备
+
 1. 李明
 2. 王芳
 3. 张飞
@@ -88,9 +92,11 @@ def main():
 5. 刘备    
 
 #### 图片引用
-    ![logo](/static/logo/icon.png)   
+    ![logo](/static/logo/icon.png)
+
 ![logo](/static/logo/icon.png)   
 
 #### 超链接
-    [点我到首页](http://www.xatusec.org/)   
+    [点我到首页](http://www.xatusec.org/)
+
 [点我到首页](http://www.xatusec.org/)   
