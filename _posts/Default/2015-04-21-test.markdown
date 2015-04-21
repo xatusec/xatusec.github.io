@@ -14,3 +14,9 @@ style:          warning
 ## 二号标题测试
     我是二号标题的内容
     
+#### 代码高亮测试
+[code:python:edoc]
+def main():
+    print 'hello world!'
+[codend]
+
