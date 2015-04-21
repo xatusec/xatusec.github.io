@@ -1,5 +1,4 @@
 ---
-layout: static
 permalink: robots.txt
 ---
 
@@ -8,7 +7,7 @@ permalink: robots.txt
 #  ) (| o || | | U |\_ \| _( (_    
 # /_n_\_n_||_| |___||__/|___\__|   
 
-Sitemap: http://www.xatusec.org/sitemap.xml   
+Sitemap: http://{{ site.url }}/sitemap.xml   
 
 User-Agent: *   
 Allow: /   

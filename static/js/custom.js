@@ -45,7 +45,7 @@ function genPostHtml(obj){
 
 $(document).ready(function(){
     // 获取文章JSON数据列表
-    $.getJSON("/api/posts.json", function(temp){
+    $.getJSON("/posts.json", function(temp){
         posts = temp;
     });
     // 代码高亮

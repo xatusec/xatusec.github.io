@@ -32,3 +32,27 @@ h4 {
 h4:hover {
     color: #1091A1;
 }
+
+h3 {
+    color: #515151;
+    cursor: pointer;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+h3:hover {
+    color: #1091A1;
+}
+
+h2 {
+    color: #515151;
+    cursor: pointer;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+h2:hover {
+    color: #1091A1;
+}

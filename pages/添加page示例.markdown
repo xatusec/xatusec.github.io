@@ -30,6 +30,11 @@ addNavbar: true
 published:      false
 ---
 
+!!! 重要 !!!
+根据需要使用合适的后缀
+需要解析 markdown 语法，使用 .markdown 后缀
+不需要解析 markdown 语法，而是一般的html页面，则使用 .html 后缀
+
 #### 标题1
     我是标题1的内容   
     
