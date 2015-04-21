@@ -25,7 +25,7 @@ title:          文章模板
 # 是否发表
 # 默认: true
 # 可选：true | false
-published:      false
+# published:      false
 ---
 
 #### 重要！！！
