@@ -43,8 +43,23 @@ __  __    _  _____ _   _ ____  _____ ____
             <div class="collapse navbar-collapse" id="hotes-navbar-collapse">
                 <!-- 页面导航栏 -->
                 <ul class="nav navbar-nav pull-right">
-                {% if page.url == "/post/" %}
-                    <!-- 分类 -->
+                {% endif %}
+                <!-- 加载page到导航栏 -->
+                {% for p in site.pages %}
+                    {% if p.title %}
+                    {% if p.addNavbar %}
+                    {% if p.url == page.url %}
+                    <li class="active">
+                    {% else %}
+                    <li>
+                    {% endif %}
+                        <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {{ p.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                {% endfor %}
+                    <!-- 分类浏览 -->
+                    {% if page.url == "/post/" %}
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">
                             <span class="glyphicon glyphicon-th-list"></span>
@@ -67,21 +82,6 @@ __  __    _  _____ _   _ ____  _____ ____
                             </li>
                         </ul>
                     </li>
-                {% endif %}
-                <!-- 加载page到导航栏 -->
-                {% for p in site.pages %}
-                    {% if p.title %}
-                    {% if p.addNavbar %}
-                    {% if p.url == page.url %}
-                    <li class="active">
-                    {% else %}
-                    <li>
-                    {% endif %}
-                        <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {{ p.title }}</a>
-                    </li>
-                    {% endif %}
-                    {% endif %}
-                {% endfor %}
                 </ul>
             </div>
         </div>
