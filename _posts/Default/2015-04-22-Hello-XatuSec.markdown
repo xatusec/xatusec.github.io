@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "Hello XatuSec"
+title:          "XATUSEC官方网站正式上线"
 style:          "success"
 icon:           "flag"
 ---
