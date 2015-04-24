@@ -8,24 +8,15 @@ addNavbar: true
 ---
 
 <!-- <iframe width="100%" allowTransparency="true" style="width:100%;border:none;overflow:auto;" frameborder="0" src="http://www.mikecrm.com/f.php?t=gKPbcz"></iframe> -->
-<iframe scrolling="no" marginheight="0" marginwidth="0" width="100%" allowTransparency="true" style="width:100%;border:none;overflow:auto;" frameborder="0" src="http://www.mikecrm.com/f.php?t=gKPbcz" id="iframepage" name="iframepage" onLoad="iFrameHeight()"></iframe>
+<iframe marginheight="0" marginwidth="0" allowTransparency="true" style="width:100%;border:none;overflow:auto;" frameborder="0" src="http://www.mikecrm.com/f.php?t=gKPbcz" id="iframepage" name="iframepage" onLoad="iFrameHeight()"></iframe>
 
 <script type="text/javascript" language="javascript">
-
-    function iFrameHeight() {
-
-        var ifm= document.getElementById("iframepage");
-
-        var subWeb = document.frames ? document.frames["iframepage"].document :
-
-ifm.contentDocument;
-
-            if(ifm != null && subWeb != null) {
-
-            ifm.height = subWeb.body.scrollHeight;
-
-            }
-
+function iFrameHeight() {
+    var ifm= document.getElementById("iframepage");
+    var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
+    if(ifm != null && subWeb != null) {
+        ifm.height = subWeb.body.scrollHeight;
     }
+}
 
 </script> 
