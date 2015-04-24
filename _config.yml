@@ -12,5 +12,5 @@ duoshuo_user:       "xatusec"                                           # 多说
 cnzz_id:            "1254831492"                                        # cnzz统计id    
 
 # CDN设置
-bootstrapCdnUrl:    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4"                # bootstrap cnd url
-jqueryCdnUrl:       "http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"    # jquery cdn url
+# bootstrapCdnUrl:    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4"                # bootstrap cnd url
+# jqueryCdnUrl:       "http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"    # jquery cdn url
