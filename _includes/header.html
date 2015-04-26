@@ -70,10 +70,15 @@ __  __    _  _____ _   _ ____  _____ ____
                     </li>
                 {% endif %}
                 <!-- 加载page到导航栏 -->
-                    {% for p in site.pages %}{% if p.title %}{% if p.addNavbar %}{% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
+                    {% for p in site.pages %}
+                    {% if p.title %}
+                    {% if p.addNavbar %}
+                    {% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {{ p.title }}</a>
                     </li>
-                    {% endif %}{% endif %}{% endfor %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
         </div>
