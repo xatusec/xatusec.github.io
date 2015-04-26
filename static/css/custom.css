@@ -64,14 +64,3 @@ h2 {
 h2:hover {
     color: #1091A1;
 }
-
-#goTopBtn {  
-    background: url(/static/img/top.gif) no-repeat center center; 
-    POSITION: fixed;
-    TEXT-ALIGN: center;
-    LINE-HEIGHT: 30px;
-    BOTTOM: 35px;FONT-SIZE: 12px;
-    CURSOR: pointer; RIGHT: 0px;
-    _position: absolute;
-    _right: auto
-}
