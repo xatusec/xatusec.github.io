@@ -70,7 +70,7 @@ __  __    _  _____ _   _ ____  _____ ____
                     </li>
                 {% endif %}
                 <!-- 加载page到导航栏 -->
-                    {% for p in site.pages %}
+                {% for p in site.pages %}
                     {% if p.title %}
                     {% if p.addNavbar %}
                     {% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
@@ -78,7 +78,7 @@ __  __    _  _____ _   _ ____  _____ ____
                     </li>
                     {% endif %}
                     {% endif %}
-                    {% endfor %}
+                {% endfor %}
                 </ul>
             </div>
         </div>
