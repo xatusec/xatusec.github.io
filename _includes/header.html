@@ -18,6 +18,7 @@ __  __    _  _____ _   _ ____  _____ ____
     <link rel="stylesheet" type="text/css" href="/static/SyntaxHighlighter/shCoreDefault.css">
     <link rel="stylesheet" type="text/css" href="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl }}{% else %}{{ '/static/bootstrap' }}{% endif %}/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
+    {% if site.navbarFixedTop %}{{ '<style type="text/css">body{margin-top:65px;}</style>' }}{% endif %}
     <script src="{% if site.jqueryCdnUrl %}{{ site.jqueryCdnUrl }}{% else %}{{ '/static/js/jquery.min.js' }}{% endif %}"></script>
     <script src="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl}}{% else %}{{ '/static/bootstrap' }}{% endif %}/js/bootstrap.min.js"></script>
     <script src="/static/SyntaxHighlighter/shCore.js"></script>
@@ -69,19 +70,9 @@ __  __    _  _____ _   _ ____  _____ ____
                     </li>
                 {% endif %}
                 <!-- 加载page到导航栏 -->
-                {% for p in site.pages %}
-                    {% if p.title %}
-                    {% if p.addNavbar %}
-                    {% if p.url == page.url %}
-                    <li class="active">
-                    {% else %}
-                    <li>
-                    {% endif %}
+                    {% for p in site.pages %}{% if p.title %}{% if p.addNavbar %}{% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {{ p.title }}</a>
-                    </li>
-                    {% endif %}
-                    {% endif %}
-                {% endfor %}
+                    </li>{% endif %}{% endif %}{% endfor %}
                 </ul>
             </div>
         </div>
