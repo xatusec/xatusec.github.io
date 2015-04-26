@@ -9,6 +9,6 @@ permalink: robots.txt
 
 Sitemap: http://{{ site.url }}/sitemap.xml   
 
-User-Agent: *   
-Allow: /   
-Allow: /feed.xml   
+User-agent: *
+Disallow: /
+
