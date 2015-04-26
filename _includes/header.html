@@ -18,7 +18,7 @@ __  __    _  _____ _   _ ____  _____ ____
     <link rel="stylesheet" type="text/css" href="/static/SyntaxHighlighter/shCoreDefault.css">
     <link rel="stylesheet" type="text/css" href="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl }}{% else %}{{ '/static/bootstrap' }}{% endif %}/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
-    {% if site.navbarFixedTop %}{{ '<style type="text/css">body{margin-top:65px;}</style>' }}{% endif %}
+    {% if site.navbarFixedTop %}<style type="text/css">body{margin-top:65px;}</style>{% endif %}
     <script src="{% if site.jqueryCdnUrl %}{{ site.jqueryCdnUrl }}{% else %}{{ '/static/js/jquery.min.js' }}{% endif %}"></script>
     <script src="{% if site.bootstrapCdnUrl %}{{ site.bootstrapCdnUrl}}{% else %}{{ '/static/bootstrap' }}{% endif %}/js/bootstrap.min.js"></script>
     <script src="/static/SyntaxHighlighter/shCore.js"></script>
