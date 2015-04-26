@@ -13,4 +13,6 @@ cnzz_id:            "1254831492"                                        # cnzz�
 
 # CDN设置
 # bootstrapCdnUrl:    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4"                # bootstrap cnd url
+bootstrapCdnUrl:    "http://cdn.bootcss.com/bootstrap/3.3.4/"                         # bootstrap cnd url
 # jqueryCdnUrl:       "http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"    # jquery cdn url
+jqueryCdnUrl:       "http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"               # jquery cdn url
