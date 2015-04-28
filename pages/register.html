@@ -7,4 +7,34 @@ style: info
 addNavbar: true
 ---
 
-<iframe height="1371" allowTransparency="true" style="width:100%;border:none;overflow:auto;" frameborder="0" src="http://www.mikecrm.com/f.php?t=gKPbcz"></iframe>
+<script type="text/javascript">
+var registerHtml = "<iframe height=\"1371\" allowTransparency=\"true\" style=\"width:100%;border:none;overflow:auto;\" frameborder=\"0\" src=\"http://www.mikecrm.com/f.php?t=gKPbcz\"><\/iframe>";
+var successHtml = "";
+    successHtml += "<div class=\"alert alert-success\">";
+    successHtml += "	<center>";
+    successHtml += "	<h3><strong> 报名成功！<\/strong><\/h3>";
+    successHtml += "	<\/center>";
+    successHtml += "	<hr/>";
+    successHtml += "恭喜您的团队已成功报名“2015年第六届XATUSEC网络攻防大赛”！";
+    successHtml += "	<hr/>";
+    successHtml += "为了保证您的团队顺利参加本次比赛，我们强烈介意您阅读以下信息：";
+    successHtml += "	<\/br>";
+    successHtml += "	<\/br>";
+    successHtml += "	比赛地点：";
+    successHtml += "	西安工业大学未央校区 工科1号楼2层";
+    successHtml += "	<\/br>";
+    successHtml += "	比赛时间：";
+    successHtml += "	2015年5月23日（周六） 9:30 — 16:30";
+    successHtml += "	<hr/>";
+    successHtml += "	<center>";
+    successHtml += "	<button type=\"button\" class=\"btn btn-info \" onclick=\"location.href='/'\">返回首页<\/button>";
+    successHtml += "	<button type=\"button\" class=\"btn btn-info\" onclick=\"location.href='/comment/'\">联系我们<\/button>";
+    successHtml += "	<button type=\"button\" class=\"btn btn-info\" onclick=\"location.href='/register/'\">再次注册<\/button>";
+    successHtml += "	<center>";
+    successHtml += "<\/div>";
+if ((location.href.indexOf('?') != -1) && (location.href.match(/success/))){
+    document.getElementsByClassName("panel-body")[0].innerHTML = successHtml;
+}else{
+    document.getElementsByClassName("panel-body")[0].innerHTML = registerHtml;
+}
+</script>
