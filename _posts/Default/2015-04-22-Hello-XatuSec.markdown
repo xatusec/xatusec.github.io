@@ -25,7 +25,7 @@ icon:           "flag"
       <td style="text-align:left">
         <code>关于</code>页面在移动浏览器乱码</td>
       <td>已修复</td>
-      <td>非常感谢<a href="http://ant.coding.io/" target="_blank">@蚂逅</a>的修复建议</td>
+      <td>非常感谢<a href="http://ant.coding.io/" target="_blank">@蚁逅</a>的修复建议</td>
     </tr>
     <tr>
       <td style="text-align:left">移动浏览器访问文章无评论框</td>
