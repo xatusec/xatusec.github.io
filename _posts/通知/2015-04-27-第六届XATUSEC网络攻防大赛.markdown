@@ -3,7 +3,7 @@ category:    通知
 layout:      post
 title:       关于举办“2015年第六届XATUSEC网络攻防大赛”的通知
 tags:        [2015 xatusec, XATUSEC网络攻防大赛]
-style:       danger
+style:       info
 ---
 
 > 为提高大学生网络安全意识，培养大学生的创新意识、团队合作精神，促进和提高大学生的网络攻防实战水平，由西安工业大学教务处、计算机科学与工程学院主办、网络攻防绿色兵团承办的“2015年第六届XATUSEC网络攻防大赛”将于2015年5月23日举行，欢迎大家踊跃组队参赛。   
@@ -34,7 +34,7 @@ style:       danger
 #### 五、报名方式
     自本通知正式发布之日起，即可在线报名。   
 
-1. 报名网站：http://www.xatusec.org/register/   
+1. 报名网站：[http://www.xatusec.org/register/](http://www.xatusec.org/register/)   
 2. 现场报名：西安工业大学经纬广场东南角（5月18日-20日）   
 3. 联系电话：15289370838   
 
