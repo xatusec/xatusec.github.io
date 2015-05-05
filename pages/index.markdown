@@ -8,7 +8,7 @@ addNavbar: true
 ---
 
 <style type="text/css">
-body {background-image:url(/static/img/bg.jpg);}
+body {url(/static/img/bg.jpg) fixed top;}
 </style>
 
 <div class="hidden-xs">
