@@ -7,10 +7,6 @@ icon: flag
 addNavbar: true
 ---
 
-<style type="text/css">
-body {background-image: url(/static/img/bg.jpg); background-size: cover}
-</style>
-
 <div class="hidden-xs">
     <pre>
 ___   ___      ___   .___________. __    __       _______. _______   ______     ___     ___    __   _____  
