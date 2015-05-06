@@ -57,9 +57,7 @@ __ __ _  ___  _ _  __  ___ __
 #### 七、报名方式
     由各参赛队伍队长负责填写提交报名表单
 
-- 线上报名：<button type="button" class="btn btn-sm btn-info" onclick="location.href='/register/'"> 点我报名</button>
-- 线上报名：[http://xatusec.org/register/](/register/)
-- 线上报名：[点我报名](/register/)
+- 线上报名：[http://www.xatusec.org/register/](/register/)
 - 线下报名：西安工业大学经纬广场东南角（5月18日-20日）
 
 #### 八、比赛时间、地点安排
