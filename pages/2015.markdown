@@ -34,7 +34,7 @@ __ __ _  ___  _ _  __  ___ __
 - [cs.xatu.edu.cn](http://cs.xatu.edu.cn/tzggnr.jsp?urltype=news.NewsContentUrl&wbnewsid=119698&wbtreeid=11623)
 
 #### 比赛简介
-- 2015年第六届XATUSEC网络攻防大赛由西安工业大学教务处、计算机科学与工程学院主办、网络攻防绿色兵团承办。
+    2015年第六届XATUSEC网络攻防大赛由西安工业大学教务处、计算机科学与工程学院主办、网络攻防绿色兵团承办。
     
 #### 比赛模式
 - 本届大赛在线下举行，题目采用解题模式（Jeopardy）和渗透模式（Pentest&Pwn）相结合的形式
