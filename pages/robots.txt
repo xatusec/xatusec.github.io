@@ -7,5 +7,7 @@ permalink: robots.txt
 #  ) (| o || | | U |\_ \| _( (_    
 # /_n_\_n_||_| |___||__/|___\__|   
 
+Sitemap: {{ site.url }}/sitemap.xml   
+
 User-agent: *
-Disallow: /
+Disallow:
