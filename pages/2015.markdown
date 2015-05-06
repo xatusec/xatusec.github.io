@@ -5,6 +5,7 @@ style: info
 title: 2015
 icon: flag
 addNavbar: true
+navbarStress: red
 desc: XATUSEC 2015（第六届）网络攻防大赛, 2015年第六届XATUSEC网络攻防大赛
 ---
 

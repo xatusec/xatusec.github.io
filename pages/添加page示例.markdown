@@ -16,7 +16,7 @@ icon: leaf
 
 # 面板风格：
 # 默认： 无风格
-# 可选: info | success | danger | warning 
+# 可选: info | success | danger | warning | primary
 style: info
 
 # 是否加到导航栏
@@ -24,10 +24,20 @@ style: info
 # 可选：true | false
 addNavbar: true
 
+# 是否在导航栏进行强调
+# 默认flase
+# 可选：false | [颜色值]
+navbarStress: false
+
+# 页面描述（seo）
+# 默认false
+# 可选：false | [描述文本]
+desc: false
+
 # 是否发表
 # 默认: true
 # 可选：true | false
-published:      false
+published: false
 ---
 
 !!! 重要 !!!
