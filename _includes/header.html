@@ -74,7 +74,7 @@ __  __    _  _____ _   _ ____  _____ ____
                     {% if p.title %}
                     {% if p.addNavbar %}
                     {% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {% if p.navbarStress %}<font color="{{ p.navbarStress }}"><strong>{{ p.title }}</strong></font>{% else %}{{ p.title }}{% endif %}</a>
+                        <a href="{{ p.url }}"><span class="glyphicon glyphicon-{% if p.icon %}{{ p.icon }}{% else %}{{ 'paperclip' }}{% endif %}"></span> {% if p.navbarStress %}<font color="{{ p.navbarStress }}">{{ p.title }}</font>{% else %}{{ p.title }}{% endif %}</a>
                     </li>
                     {% endif %}
                     {% endif %}
