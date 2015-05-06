@@ -45,6 +45,9 @@ published: false
 需要解析 markdown 语法，使用 .markdown 后缀
 不需要解析 markdown 语法，而是一般的html页面，则使用 .html 后缀
 
+!!! 重要 !!!
+导航栏的顺序由文件名控制
+
 #### 标题1
     我是标题1的内容   
     
