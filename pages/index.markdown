@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /
 layout: page
 style: info
 title: 2015
@@ -35,7 +35,8 @@ __ __ _  ___  _ _  __  ___ __
     
 #### 报名方式
     1、线上报名：  
-[http://www.xatusec.org/register/](http://www.xatusec.org/register/)
+
+[http://www.xatusec.org/register/](http://www.xatusec.org/register/)   
     2、现场报名：西安工业大学经纬广场东南角（5月18日-5月20日）
     
 #### 比赛模式
