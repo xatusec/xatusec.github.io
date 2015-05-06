@@ -8,7 +8,7 @@ addNavbar: true
 desc: XATUSEC 2015（第六届）网络攻防大赛, 2015年第六届XATUSEC网络攻防大赛
 ---
 
-#### Banner
+#### 比赛BANNER
 <div class="hidden-xs">
     <pre>
 ___   ___      ___   .___________. __    __       _______. _______   ______     ___     ___    __   _____  
@@ -57,7 +57,7 @@ __ __ _  ___  _ _  __  ___ __
 - 大赛时间：`2015年5月23日（周六）9:30 — 16:30`
 
 #### 报名方式
-- 线上报名：<button type="button" class="btn bt-sm btn-info" onclick="location.href='/register/'"> 点我报名</button>
+- 线上报名：<button type="button" class="btn btn-sm btn-info" onclick="location.href='/register/'"> 点我报名</button>
 - 线下报名：西安工业大学经纬广场东南角（5月18日-20日）
     
 #### 注意事项
