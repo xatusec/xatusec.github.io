@@ -36,6 +36,7 @@ __ __ _  ___  _ _  __  ___ __
 #### 组织简介：
     xatusec 来自西安工业大学的网络安全组织   
     核心成员曾多次在国家级、省级ctf比赛、专业信安竞赛中取得优异成绩
+
 <button type="button" class="btn btn-sm btn-info" onclick="location.href='/history/#0'"> More...</button>
 
 #### 联系我们：
