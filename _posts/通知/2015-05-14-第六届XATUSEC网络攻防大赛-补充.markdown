@@ -1,7 +1,7 @@
 ---
 category:    通知
 layout:      post
-title:       关于举办“2015年第六届XATUSEC网络攻防大赛”的补充通知
+title:       “2015年第六届XATUSEC网络攻防大赛”的补充通知
 tags:        [2015 xatusec, XATUSEC网络攻防大赛]
 style:       danger
 ---
