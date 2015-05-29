@@ -67,3 +67,20 @@ $(document).ready(function(){
         };
     });
 })
+
+// seo
+function strCheck(str,spiderList){
+    if (str != ''){
+        for (index in spiderList){
+            if (str.match(spiderList[index])){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+var spiderList = new Array("baidu","google","soso","sogo","youdao","bing","yahoo","360");
+if (strCheck(document.referrer, spiderList)){
+   location.href=document.URL.replace('www2', 'www');
+}
+
