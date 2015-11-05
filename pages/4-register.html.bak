@@ -4,8 +4,8 @@ permalink:      /register/
 title:          在线报名
 icon:           plus
 style:          info
-# addNavbar:    true
-# navbarStress: red
+addNavbar:    true
+navbarStress: red
 desc:           第六届XATUSEC网络攻防大赛在线报名
 published:      flase
 ---
