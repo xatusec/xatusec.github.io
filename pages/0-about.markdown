@@ -1,5 +1,6 @@
 ---
-permalink:  /
+# permalink:  /
+permalink:  /about/
 layout:     page
 style:      info
 title:      关于
