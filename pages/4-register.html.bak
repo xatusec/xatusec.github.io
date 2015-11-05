@@ -7,7 +7,7 @@ style:          info
 addNavbar:    true
 navbarStress: red
 desc:           第六届XATUSEC网络攻防大赛在线报名
-published:      flase
+published:      false
 ---
 
 <div id="success" class="alert alert-success">
