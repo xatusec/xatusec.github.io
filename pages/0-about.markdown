@@ -1,10 +1,10 @@
 ---
-permalink: /
-layout: page
-style: info
-title: 关于
-icon: leaf
-addNavbar: true
+permalink:  /
+layout:     page
+style:      info
+title:      关于
+icon:       leaf
+addNavbar:  true
 ---
 
 <div class="hidden-xs">

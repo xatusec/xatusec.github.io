@@ -1,8 +1,8 @@
 ---
-layout:         post
-title:          "XATUSEC官方网站正式上线"
-style:          "success"
-icon:           "flag"
+layout: post
+title:  "XATUSEC官方网站正式上线"
+style:  "success"
+icon:   "flag"
 ---
 
 经过三天的内测，[`XATUSEC官方网站`](http://www.xatusec.org/)正式上线！  

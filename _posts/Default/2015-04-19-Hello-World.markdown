@@ -1,7 +1,7 @@
 ---
 layout: post
-title: XATUSEC官方网站正式内测
-style: success
+title:  XATUSEC官方网站正式内测
+style:  success
 ---
 
 #### Hello World

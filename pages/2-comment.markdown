@@ -1,10 +1,10 @@
 ---
-layout: page
-title: 留言
-permalink: /comment/
-icon: comment
-style: info
-addNavbar: true
+layout:     page
+title:      留言
+permalink:  /comment/
+icon:       comment
+style:      info
+addNavbar:  true
 ---
 想要`联系我们`，发表任何`想法`、`意见`、`建议`，提交`bug`，请在这里留言吧！   
 我们会在收到留言的`24`小时内回复！   
