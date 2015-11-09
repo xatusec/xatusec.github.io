@@ -4,7 +4,7 @@ email: root@xatusec.org
 description: > # this means to ignore newlines until "baseurl:"
   网络攻防绿色兵团<br>来自西安工业大学的网络安全组织
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www2.xatusec.org" # the base hostname & protocol for your site
 # twitter_username: xatusec
 github_username:  xatusec
 
