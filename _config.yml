@@ -2,7 +2,7 @@
 url:            "http://www.xatusec.org"                            # 地址
 title:          "XATUSEC"                                           # 标题
 email:          "root@xatusec.org"                                  # 邮箱
-description:    "西安工业大学绿色兵团"                                # 简介
+description:    "Infomation Security Organization Of Xi'an Technological University"                                # 简介
 
 # 编译设置
 markdown: "kramdown"                                                # MarkDown
