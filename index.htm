@@ -238,9 +238,33 @@ __  __    _  _____ _   _ ____  _____ ____
             </div>
         </div>
         <!-- cnzz统计 -->
-        <div style="display: none;">
+        <!-- <div style="display: none;">
             <script src="http://s4.cnzz.com/z_stat.php?id=1254831492&web_id=1254831492" language="JavaScript"></script>
+        </div> -->
+        <!-- 底部文件 -->
+    <footer>
+    <hr class="divider">
+        <div class="container">
+            <!-- 页底链接 -->
+            <div class="pull-left">
+                <a href="/feed.xml" target="_blank" class="text-danger">rss</a>
+                <span class="text-muted"> | </span>
+                <a href="/sitemap.xml" target="_blank" class="text-warning">sitemap</a>
+                <span class="text-muted"> | </span>
+                <a href="/links/" target="_blank" class="text-info">links</a>
+                <!-- cnzz统计 -->
+                {% if site.cnzz_id %}
+                <div style="display: none;">
+                    <script src="http://s4.cnzz.com/z_stat.php?id={{ site.cnzz_id }}&web_id={{ site.cnzz_id }}" language="JavaScript"></script>
+                </div>
+                {% endif %}
+            </div>
+            <!-- 版权 -->
+            <div class="pull-right">
+                <p class="text-muted">&copy; 2015 XATUSEC.</p>
+            </div>
         </div>
+    </footer>
     </body>
 
 </html>
