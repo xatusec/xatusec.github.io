@@ -21,17 +21,17 @@ style: success
 内测顾名思义就是`内部测试`，   
 所以我们请`XATUSEC大赛交流群`的同学们帮忙进行为期三天的测试，   
 测试范围包括但不限于**安全**、**功能**、**bug**等等。   
-测试过程中的任何**想法**、**建议**、**意见**，请在 [留言](http://www.xatusec.org/comment/) 中反馈 :)   
+测试过程中的任何**想法**、**建议**、**意见**，请在 [留言](/comment/) 中反馈 :)   
 内测结束后，网站将根据反馈结果做局部微调，然后正式上线投入实际使用。
 
    
 #### Tips
 本站公开功能如下：  
  
-- [RSS](http://www.xatusec.org/feed.xml)   
-- [LINKS](http://www.xatusec.org/links/)   
-- [留言](http://www.xatusec.org/comment/)
-- [文章](http://www.xatusec.org/post/)   
+- [RSS](/feed.xml)   
+- [LINKS](/links/)   
+- [留言](/comment/)
+- [文章](/post/)   
 - 分类浏览   
 
 还有一个未公开的api功能，你能发现吗？  
