@@ -1,0 +1,28 @@
+---
+permalink:      /2015/
+layout:         page
+style:          info
+title:          2015
+icon:           flag
+# addNavbar:      false
+# navbarStress:   false
+desc:           2015年陕西省网络空间安全技术大赛
+---
+
+> 为提高大学生网络安全意识，培养大学生的创新意识、团队合作精神，促进和提高大学生的网络安全技术水平，由西安工业大学、新型网络与检测控制国家地方联合工程实验室联合举办的“2015年陕西省网络空间安全技术大赛”即将于2015年12月5日开赛。
+> 大赛邀请全省高校网络空间安全技术爱好者共同参与，欢迎大家踊跃组队参赛。
+
+<script type="text/javascript">
+    var t = 10; //设定跳转的时间 
+    setInterval("refer()", 1000); //启动1秒定时 
+    function refer() {
+        if (t == 0) {
+            location = "http://www.xatusec.org/"; //#设定跳转的链接地址 
+        }
+        document.getElementById('show').innerHTML = "" + t + "秒后，跳转到“2015年陕西省网络空间安全技术大赛”主页 ..."; // 显示倒计时 
+        t--; // 计数器递减 
+    }
+</script>
+<center>
+    <span id="show"></span>
+</center>

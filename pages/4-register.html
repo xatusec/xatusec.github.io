@@ -1,0 +1,35 @@
+---
+layout:         page
+permalink:      /register/
+title:          在线报名
+icon:           plus
+style:          info
+# addNavbar:    true
+# navbarStress: red
+desc:           2015年陕西省网络空间安全技术大赛
+---
+
+<div id="success" class="alert alert-success">
+    <center>
+        <h3>
+            <strong>
+                由西安工业大学、新型网络与检测控制国家地方联合工程实验室联合举办的“2015年陕西省网络空间安全技术大赛”即将于2015年12月5日开赛!
+            </strong>
+        </h3>
+    </center>
+    <hr>
+        <span id="show"></span>
+    </br>
+</div>
+
+<script type="text/javascript">
+    var t = 10; //设定跳转的时间 
+    setInterval("refer()", 1000); //启动1秒定时 
+    function refer() {
+        if (t == 0) {
+            location = "http://www.xatusec.org/"; //#设定跳转的链接地址 
+        }
+        document.getElementById('show').innerHTML = "" + t + "秒后，跳转到“2015年陕西省网络空间安全技术大赛”主页 ..."; // 显示倒计时 
+        t--; // 计数器递减 
+    }
+</script>

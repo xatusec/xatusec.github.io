@@ -1,14 +1,19 @@
-# Site settings
-title: XATUSEC
-email: root@xatusec.org
-description: > # this means to ignore newlines until "baseurl:"
-  网络攻防绿色兵团<br>来自西安工业大学的网络安全组织
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www2.xatusec.org" # the base hostname & protocol for your site
-# twitter_username: xatusec
-github_username:  xatusec
+# 网站信息
+url:            "http://www.xatusec.org"                            # 地址
+title:          "XATUSEC"                                           # 标题
+email:          "root@xatusec.org"                                  # 邮箱
+description:    "西安工业大学绿色兵团"                                # 简介
 
-duoshuo: xatusec
+# 编译设置
+markdown: "kramdown"                                                # MarkDown
 
-# Build settings
-markdown: kramdown
+# 第三方设置
+duoshuo_user:   "xatusec"                                           # 多说账号
+cnzz_id:        "1254831492"                                        # cnzz统计id    
+
+# CDN设置
+# bootstrapCdnUrl:    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4"                # bootstrap cnd url
+# jqueryCdnUrl:       "http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"    # jquery cdn url
+
+# ui设置
+navbarFixedTop: true                                                # 是否固定导航栏
