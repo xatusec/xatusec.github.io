@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      留言
+title:      comment
 permalink:  /comment/
 icon:       comment
 style:      info
