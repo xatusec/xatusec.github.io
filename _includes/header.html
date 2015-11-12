@@ -54,7 +54,7 @@ __  __    _  _____ _   _ ____  _____ ____
                         </a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="javascript:void(0);" onclick="getCategory('all');"><span class="glyphicon glyphicon-tags"></span> 全部 <span class="pull-right badge">{{ site.posts | size }}</span></a> 
+                                <a href="javascript:void(0);" onclick="getCategory('all');"><span class="glyphicon glyphicon-tags"></span> all <span class="pull-right badge">{{ site.posts | size }}</span></a> 
                             </li>
                             <li class="divider"></li>
                         {% for category in site.categories %}
@@ -64,11 +64,19 @@ __  __    _  _____ _   _ ____  _____ ____
                         {% endfor %}
                             <li class="divider"></li>
                             <li>
-                                <a href="javascript:void(0);" onclick="getCategory('');"><span class="glyphicon glyphicon-tag"></span> 默认</a>
+                                <a href="javascript:void(0);" onclick="getCategory('');"><span class="glyphicon glyphicon-tag"></span> default </a>
                             </li>
                         </ul>
                     </li>
                 {% endif %}
+                <!-- 加载2015到导航栏 -->
+                <li class="active">
+                        <a href="/"><span class="glyphicon glyphicon-flag">2015</span></a>
+                </li>
+                <!-- 加载about到导航栏 -->
+                <li class="active">
+                        <a href="/about/"><span class="glyphicon glyphicon-leaf">about</span></a>
+                </li>
                 <!-- 加载page到导航栏 -->
                 {% for p in site.pages %}
                     {% if p.title %}
