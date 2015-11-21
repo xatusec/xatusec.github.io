@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      comment
+title:      Comment
 permalink:  /comment/
 icon:       comment
 style:      info

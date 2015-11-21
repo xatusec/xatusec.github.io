@@ -1,5 +1,5 @@
 ---
-category:    notice
+category:    通知
 layout:      post
 title:       关于举办“2013年第三届XATUSEC网络攻防大赛”的通知
 tags:        [2013 xatusec, XATUSEC网络攻防大赛]

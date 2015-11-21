@@ -1,5 +1,5 @@
 ---
-category:    notice
+category:    通知
 layout:      post
 title:       关于举办“首届XATUSEC网络安全攻防大赛”的通知
 tags:        [2012 xatusec]
